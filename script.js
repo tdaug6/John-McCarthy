@@ -1,4 +1,4 @@
-var question = "When was the idea of artificial intelligence first suggested?"
+var question = "When was the idea of artificial intelligence FIRST suggested?"
 document.getElementById("question").innerHTML = question;
 
 var answers = ['1955','1956','1958','1959'];

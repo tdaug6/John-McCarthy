@@ -23,6 +23,10 @@ a {
   color: white;
 }
 
+.cc{
+  color:navy;
+}
+
 .title {
   padding: 20px 80px;
   color:navy;
@@ -61,13 +65,14 @@ a {
 .quizButton{
   background-color: white;
   color: black;
+  width: 110px;
+  height: 50px;
   border: 2px solid black;
-  padding: 15px 32px;
+  
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   margin: 4px 2px;
-  display:inline-block;
 }
 
 .question{
@@ -75,5 +80,9 @@ a {
 }
 
 .center{
-  margin= 0 auto;
+  width: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto;
 }
